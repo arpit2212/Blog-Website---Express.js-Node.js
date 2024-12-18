@@ -55,3 +55,37 @@ node app.js
 5. Open your browser and go to http://localhost:3000 to view the website.
 
 ## File Structure
+
+```bash
+blog-website/
+│
+├── app.js             # Main server file
+├── package.json       # Project metadata and dependencies
+│
+├── public/            # Public assets (CSS, JS, Images)
+│   ├── css/
+│   │   └── style.css  # Stylesheet for the website
+│   ├── js/
+│   │   └── script.js  # JavaScript for frontend interactivity
+│   └── images/        # Image assets
+│
+├── routes/            # Express route files
+│   └── blog.js        # Blog route file for handling posts
+│
+└── views/             # EJS view files for rendering HTML
+    └── index.ejs      # Homepage view
+
+```
+Usage
+Blog Page: The home page renders a list of blog posts.
+Add/Edit Posts: You can modify the views/index.ejs and routes/blog.js files to display new or updated posts.
+Contributing
+Feel free to fork this repository and submit pull requests if you'd like to contribute. You can also open issues for bug reports or feature requests.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+yaml
+Copy code
+
+
