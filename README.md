@@ -31,9 +31,10 @@ This is a simple blog website built using **Express.js**, **Node.js**, **HTML**,
 ## Installation Instructions
 
 1. **Clone the repository**:
-   ```bash
+   
+```bash
    git clone https://github.com/your-username/blog-website.git
-
+```
 2. Navigate into the project directory:
 ```bash
 Copy code
